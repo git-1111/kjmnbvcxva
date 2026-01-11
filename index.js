@@ -12,7 +12,7 @@ class Main {
   constructor() {
     this._files = {};
     this.cache = {};
-    this.fs = new FILESYSTEM__(this);
+    this.fs = new FILESYSTEM__(this)
 
     this._request_Files();
   }
@@ -164,4 +164,5 @@ result: ${!!result}
 }
 
 new Main();
+
 
